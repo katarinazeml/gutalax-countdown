@@ -61,6 +61,8 @@ h2 {
   color: #39FF14;
   font-size: 2.95em;
   display: none;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 10px black;
+
 }
 
 h3 {
@@ -81,10 +83,12 @@ h3 {
     margin-top: 30px;
     font-family: Turds, serif;
     box-shadow: 0 0 10px #39FF14, 0 0 10px #39FF14;
+    text-shadow: 0 0 5px black;
 }
 
 #startButton:hover {
     background-color: #39FF14;
     box-shadow: 0 0 10px #39FF14, 0 0 15px #39FF14, 0 0 20px #39FF14;
     color: black;
+    text-shadow: 0 0 10px black;
 }
