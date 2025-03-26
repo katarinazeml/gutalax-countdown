@@ -101,7 +101,7 @@ h3 {
 
 @media screen and (max-width: 768px) {
     #countdown {
-        font-size: 18vw; /* Adjust based on screen width */
+        font-size: 10vw; /* Adjust based on screen width */
         margin-top: 20vh;
         right: auto;
         display: block;
@@ -112,7 +112,7 @@ h3 {
     }
 
     h2 {
-        font-size: 6vw;
+        font-size: 3vw;
     }
 
     h3 {
@@ -125,7 +125,8 @@ h3 {
     }
 
     html, body {
-        background-size: contain; /* Ensures full display on small screens */
+        background-size: contain;
+        background-image: url('reversedgif - Copy.gif');
     }
 }
 
