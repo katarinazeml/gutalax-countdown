@@ -1,8 +1,19 @@
 @font-face {
     font-family: 'Turds';
-    src: url('Turds-vppD.ttf') format('truetype'); /* TTF format */
+    src: url('Turds-vppD.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Showcard';
+    src: url('Showcard Gothic Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#countdown {
+    font-family: 'Showcard', sans-serif;
 }
 
 * {
@@ -24,7 +35,6 @@ html, body {
 }
 
 #countdown {
-    font-family: "Showcard Gothic", serif;
     font-size: 8em;
     font-weight: bold;
     position: center;
