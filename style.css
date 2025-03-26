@@ -46,7 +46,7 @@ html, body {
     border-radius: 50% 50% 20% 20%;
     z-index: 2;
     color: #39FF14;
-    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 10px #39FF14;
+    text-shadow: 0 0 5px black, 0 0 10px #39FF14, 0 0 10px #39FF14;
 }
 
 h1 {
@@ -60,7 +60,6 @@ h2 {
   font-family: Turds, serif;
   color: #39FF14;
   font-size: 2.95em;
-  text-shadow: 0 0 5px black, 0 0 10px black, 0 0 10px #39FF14;
   display: none;
 }
 
@@ -81,10 +80,11 @@ h3 {
     cursor: pointer;
     margin-top: 30px;
     font-family: Turds, serif;
-    box-shadow: 0 0 5px black, 0 0 10px #39FF14, 0 0 10px #39FF14;
-    text-shadow: 0 0 5px black;
+    box-shadow: 0 0 10px #39FF14, 0 0 10px #39FF14;
 }
 
 #startButton:hover {
-    background-color: #00FF00;
+    background-color: #39FF14;
+    box-shadow: 0 0 10px #39FF14, 0 0 15px #39FF14, 0 0 20px #39FF14;
+    color: black;
 }
