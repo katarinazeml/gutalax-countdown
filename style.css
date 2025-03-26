@@ -12,8 +12,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Shlop';
+    src: url('shlop rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #countdown {
-    font-family: 'Showcard', sans-serif;
+    font-family: 'Shlop', sans-serif;
 }
 
 * {
@@ -35,7 +42,7 @@ html, body {
 }
 
 #countdown {
-    font-size: 8em;
+    font-size: 12em;
     font-weight: bold;
     position: center;
     margin-top: 180px;
