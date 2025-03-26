@@ -101,7 +101,7 @@ h3 {
 
 @media only screen and (max-width: 55.75em) {
     #countdown {
-        font-size: 12vw; /* Adjust based on screen width */
+        font-size: 16vw; /* Adjust based on screen width */
         margin-top: 20vh;
         right: auto;
         display: block;
@@ -112,7 +112,7 @@ h3 {
     }
 
     h2 {
-        font-size: 6vw;
+        font-size: 8vw;
     }
 
     h3 {
@@ -122,6 +122,13 @@ h3 {
     #startButton {
         font-size: 7vw;
         padding: 10px 20px;
+    }
+
+    #startButton:hover {
+    background-color: #39FF14;
+    box-shadow: 0 0 10px black, 0 0 5px #39FF14, 0 0 30px #39FF14;
+    color: black;
+    text-shadow: 0 0 10px black;
     }
 
     html, body {
