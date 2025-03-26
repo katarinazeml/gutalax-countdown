@@ -101,7 +101,7 @@ h3 {
 
 @media only screen and (max-width: 55.75em) {
     #countdown {
-        font-size: 10vw; /* Adjust based on screen width */
+        font-size: 12vw; /* Adjust based on screen width */
         margin-top: 20vh;
         right: auto;
         display: block;
@@ -112,7 +112,7 @@ h3 {
     }
 
     h2 {
-        font-size: 3vw;
+        font-size: 6vw;
     }
 
     h3 {
