@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: black;
+    background-image: url('reversedgif.gif');
+    background-size: cover; /* Adjusts the GIF to cover the entire page */
+    background-repeat: no-repeat; /* Prevents repetition */
+    background-position: center; /* Centers the GIF */
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'Turds';
+    src: url('Turds-vppD.ttf') format('truetype'); /* TTF format */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TurdsSoft';
+    src: url('TurdsSoft-wAAn.ttf') format('truetype'); /* TTF format */
+    font-weight: normal;
+    font-style: normal;
+}
+
+#countdown {
+    font-family: "Showcard Gothic", serif;
+    font-size: 8em;
+    font-weight: bold;
+    position: center;
+    margin-top: 180px;
+    right: 11em;
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 50% 50% 20% 20%;
+    z-index: 2;
+    color: #39FF14;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 10px #39FF14;
+}
+
+h1 {
+  font-family: Turds, serif;
+  color: #39FF14;
+  font-size: 5em;
+  text-shadow: 0 0 5px black, 0 0 10px black, 0 0 10px black;
+}
+
+h2 {
+  font-family: Turds, serif;
+  color: #39FF14;
+  font-size: 2.95em;
+  text-shadow: 0 0 5px black, 0 0 10px black, 0 0 10px #39FF14;
+  display: none;
+}
+
+h3 {
+  font-family: Turds, serif;
+  color: #39FF14;
+  font-size: 7em;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 10px black;
+}
+
+#startButton {
+    font-size: 5.5em;
+    background-color: #39FF14;
+    color: black;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-family: Turds, serif;
+    box-shadow: 0 0 5px black, 0 0 10px #39FF14, 0 0 10px #39FF14;
+    text-shadow: 0 0 5px black;
+}
+
+#startButton:hover {
+    background-color: #00FF00;
+}
