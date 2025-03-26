@@ -6,7 +6,6 @@
 
 html, body {
     height: 100%;
-    overflow: hidden;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
@@ -46,7 +45,7 @@ html, body {
     border-radius: 50% 50% 20% 20%;
     z-index: 2;
     color: #39FF14;
-    text-shadow: 0 0 5px black, 0 0 10px #39FF14, 0 0 10px #39FF14;
+    text-shadow: 0 0 30px black, 0 0 20px #39FF14, 0 0 10px #39FF14;
 }
 
 h1 {
