@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Turds';
+    src: url('Turds-vppD.ttf') format('truetype'); /* TTF format */
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +15,6 @@ html, body {
     height: 100%;
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 0;
-    padding: 0;
     position: relative;
     background-color: black;
     background-image: url('reversedgif.gif');
@@ -17,20 +22,6 @@ html, body {
     background-repeat: no-repeat; /* Prevents repetition */
     background-position: center; /* Centers the GIF */
     background-attachment: fixed;
-}
-
-@font-face {
-    font-family: 'Turds';
-    src: url('Turds-vppD.ttf') format('truetype'); /* TTF format */
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TurdsSoft';
-    src: url('TurdsSoft-wAAn.ttf') format('truetype'); /* TTF format */
-    font-weight: normal;
-    font-style: normal;
 }
 
 #countdown {
