@@ -1,6 +1,6 @@
 // Initialize variables
 let countdownInterval;
-let fartSoundInterval;
+let previousSecond = null; // Track the previous second
 
 // Function to update countdown
 function updateCountdown() {
@@ -16,10 +16,15 @@ function updateCountdown() {
 
         document.getElementById("countdown").innerHTML =
             `${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+        // Check if the seconds have changed, and play the fart sound if they have
+        if (previousSecond !== seconds) {
+            playFartSound(); // Play fart sound when seconds change
+            previousSecond = seconds; // Update previousSecond to the current second
+        }
     } else {
         document.getElementById("countdown").innerHTML = "The concert has started!";
         clearInterval(countdownInterval);
-        clearInterval(fartSoundInterval);
     }
 }
 
@@ -34,11 +39,6 @@ function startCountdown() {
     // Start the countdown every second
     countdownInterval = setInterval(() => {
         updateCountdown();
-    }, 1000);
-
-    // Play fart sound every second
-    fartSoundInterval = setInterval(() => {
-        playFartSound();
     }, 1000);
 
     // Hide the "Show Fartdown" button after it's clicked
