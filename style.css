@@ -105,6 +105,36 @@ h3 {
     text-shadow: 0 0 10px black;
 }
 
+#popup-ad {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1000;
+    display: none; /* Initially hidden */
+}
+
+/* X button */
+#close-ad {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    background: black;
+    border: none;
+    font-weight: bold;
+    padding: 5px 10px;  /* Add padding to make the background wider */
+    border-radius: 5px;  /* Optional: Slightly rounded corners */
+}
+
+#close-ad:hover {
+    color: #39FF14;
+}
+
+
 @media only screen and (max-width: 55.75em) {
     #countdown {
         font-size: 14vw; /* Adjust based on screen width */

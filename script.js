@@ -50,5 +50,17 @@ function startCountdown() {
     }, 1000); // Wait for 1 second after the countdown starts
 }
 
+window.onload = function () {
+    setTimeout(() => {
+        document.getElementById("popup-ad").style.display = "block";
+    }, 1000); // Show after 1 second
+
+    document.getElementById("close-ad").addEventListener("click", function () {
+        document.getElementById("popup-ad").style.display = "none";
+    });
+};
+
+
+
 // Add event listener to the button
 document.getElementById("startButton").addEventListener("click", startCountdown);
