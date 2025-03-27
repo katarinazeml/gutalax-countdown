@@ -158,8 +158,8 @@ h3 {
     }
 
     #popup-ad img {
-        max-width: 300px; /* Smaller ad image for mobile */
-        max-height: 300px;
+        max-width: 400px; /* Smaller ad image for mobile */
+        max-height: 400px;
     }
 
     #close-ad {
