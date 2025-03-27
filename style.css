@@ -20,7 +20,7 @@
 }
 
 .headings {
-    margin-top: 4em;
+    margin-top: 14em;
     position: relative;
 }
 
@@ -139,6 +139,11 @@ h3 {
 
     html, body {
         background-image: url('reversedgif-ezgif.com-rotate.gif');
+    }
+
+    .headings {
+    margin-top: 10em;
+    position: relative;
     }
 }
 
