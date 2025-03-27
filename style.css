@@ -152,8 +152,9 @@ h3 {
     }
 
     #popup-ad {
-        max-width: 80vw; /* Adjust width for smaller screens */
-        max-height: 80vh;
+        max-width: 90vw; /* Adjust width for smaller screens */
+        max-height: 90vh;
+        margin-top: 20vh;
     }
 
     #popup-ad img {
