@@ -53,7 +53,7 @@ function startCountdown() {
 window.onload = function () {
     setTimeout(() => {
         document.getElementById("popup-ad").style.display = "block";
-    }, 1500);
+    }, 1080);
 
     document.getElementById("close-ad").addEventListener("click", function () {
         document.getElementById("popup-ad").style.display = "none";
