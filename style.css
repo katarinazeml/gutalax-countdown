@@ -113,6 +113,14 @@ h3 {
     text-align: center;
     z-index: 1000;
     display: none; /* Initially hidden */
+    max-width: 90vw; /* Prevents it from being too wide on mobile */
+    max-height: 90vh; /* Prevents it from being too tall */
+}
+
+/* Make the ad image responsive */
+#popup-ad img {
+    max-width: 3000px; /* Default max size for larger screens */
+    max-height: 3000px;
 }
 
 /* X button */
@@ -141,6 +149,23 @@ h3 {
         margin-top: 20vh;
         right: auto;
         display: block;
+    }
+
+    #popup-ad {
+        max-width: 80vw; /* Adjust width for smaller screens */
+        max-height: 80vh;
+    }
+
+    #popup-ad img {
+        max-width: 300px; /* Smaller ad image for mobile */
+        max-height: 300px;
+    }
+
+    #close-ad {
+        font-size: 24px; /* Slightly smaller close button */
+        top: 5px;
+        right: 5px;
+        padding: 3px 8px;
     }
 
     h1 {
